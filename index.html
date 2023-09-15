@@ -20,13 +20,13 @@
             theme: {
                 extend: {
                     colors: {
-                        clifford: '#da373d',
+                        'bg-background': '#F85559',
                     }
                 }
             }
         }
     </script>
-    <!-- Custom Css syles -->
+    <!-- Custom Css styles -->
     <style>
         .font-lato {
             font-family: 'Lato', sans-serif;
@@ -35,8 +35,8 @@
 </head>
 
 <body class="font-lato">
-    <header class="container mx-auto">
-        <div class="navbar px-12 py-10 bg-red-500 rounded-lg ">
+    <header class="container mx-auto mt-12 ">
+        <div class="navbar px-12 py-10 bg-red-500 rounded-full ">
             <div class="navbar-start  ">
                 <ul class="flex gap-7  text-white font-medium  ">
                     <li>Homepage</li>
@@ -46,12 +46,12 @@
                 </ul>
 
             </div>
-            <div class="navbar-center">
+            <div class="navbar-center gap-4">
                 <img src="images/logo.png" alt="">
                 <a class="text-white  text-4xl font-bold">Fruit Burst</a>
             </div>
             <div class="navbar-end">
-                <div>
+                <div class="flex bg-white">
                     <p>Search here</p>
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
@@ -59,7 +59,145 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="container mx-auto space-y-40">
+        <!-- Exotic Section  Starts -->
+        <section class="relative  ">
+
+            <div class="carousel w-full  ">
+                <div id="slide1" class="carousel-item relative w-full z-24">
+                    <img src="/images/banner1.png" class="w-full bg-gradient-to-r from-[#121212] to-[#121212]" />
+
+                    <div
+                        class=" absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
+                        <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a>
+                        <div class="text-center">
+                            <h1 class="text-7xl font-extrabold text-white mb-6 ">Exotic tastes at your <br>
+                                doorstep</h1>
+                            <p class="text-white text-xl font-medium">We supply highly quality organic products</p>
+                            <button class="text-white font-bold text-xl btn bg-red-500 rounded-lg mx-7 my-5">Shop
+                                Now</button>
+                        </div>
+                        <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full z-24">
+                    <img src="/images/banner2.png" class="w-full bg-gradient-to-r from-[#121212] to-[#121212]" />
+                    <div
+                        class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
+                        <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                        <div class="text-center">
+                            <h1 class="text-7xl font-extrabold text-white mb-6 ">Exotic tastes at your <br>
+                                doorstep</h1>
+                            <p class="text-white text-xl font-medium">We supply highly quality organic products</p>
+                            <button class="text-white font-bold text-xl btn bg-red-500 rounded-lg mx-7 my-5">Shop
+                                Now</button>
+                        </div>
+                        <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full z-24">
+                    <img src="/images/banner3.png" class="w-full bg-gradient-to-r from-[#121212] to-[#121212]" />
+                    <div
+                        class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
+                        <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
+                        <div class="text-center">
+                            <h1 class="text-7xl font-extrabold text-white mb-6 ">Exotic tastes at your <br>
+                                doorstep</h1>
+                            <p class="text-white text-xl font-medium">We supply highly quality organic products</p>
+                            <button class="text-white font-bold text-xl btn bg-red-500 rounded-lg mx-7 my-5">Shop
+                                Now</button>
+                        </div>
+                        <a href="#slide4" class="btn btn-circle bg-black text-white">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full z-24">
+                    <img src="/images/banner4.png" class="w-full bg-gradient-to-r from-[#121212] to-[#121212]" />
+                    <div
+                        class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center ">
+                        <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+                        <div class="text-center">
+                            <h1 class="text-7xl font-extrabold text-white mb-6 ">Exotic tastes at your <br>
+                                doorstep</h1>
+                            <p class="text-white text-xl font-medium">We supply highly quality organic products</p>
+                            <button class="text-white font-bold text-xl btn bg-red-500 rounded-lg mx-7 my-5">Shop
+                                Now</button>
+                        </div>
+                        <a href="#slide1" class="btn btn-circle bg-black text-white ">❯</a>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="flex justify-between text-center gap-24 absolute -bottom-24 left-40 z-10 bg-white shadow rounded-lg p-16">
+
+                <div>
+                    <img src="images/fruit1.png" alt="">
+                    <p>Strawberry</p>
+                </div>
+                <div>
+                    <img src="/images/fruit2.png" alt="">
+                    <p>Strawberry</p>
+                </div>
+                <div>
+                    <img src="images/fruit3.png" alt="">
+                    <p>Mango</p>
+                </div>
+                <div>
+                    <img src="images/fruit4.png" alt="">
+                    <p>Strawberry</p>
+                </div>
+                <div>
+                    <img src="images/fruit5.png" alt="">
+                    <p>Apple</p>
+                </div>
+
+            </div>
+        </section>
+        <!-- Deal of the Day Section -->
+        <section>
+            <div class="flex justify-between">
+                <div>
+                    <h3 class="text-6xl font-extrabold mb-6">Deal of the day</h3>
+                    <p class="font-medium text-lg">Contrary to popular belief, is not simply random text. It has roots
+                        in a
+                        piece of classical <br>
+                        Latin
+                        literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <div class="grid grid-flow-col gap-5 text-center items-center auto-cols-max">
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-6xl font-extrabold mb-4">
+                            <span style="--value:29 ;"></span>
+                        </span>
+                        Days
+                    </div>
+                    <img src="images/Frame (1).svg" alt="">
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-6xl font-extrabold mb-4">
+                            <span style="--value:10;"></span>
+                        </span>
+                        Hours
+                    </div>
+                    <img src="images/Frame (1).svg" alt="">
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-6xl font-extrabold mb-4">
+                            <span style="--value:24;"></span>
+                        </span>
+                        Minutes
+                    </div>
+                    <img src="images/Frame (1).svg" alt="">
+                    <div class="flex flex-col">
+                        <span class="countdown font-mono text-6xl font-extrabold mb-4">
+                            <span style="--value:49;"></span>
+                        </span>
+                        Seconds
+                    </div>
+                </div>
+            </div>
+            <!-- Deal  -->
+        </section>
+
+
+        <!-- team section -->
 
     </main>
     <footer>
